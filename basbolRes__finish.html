@@ -117,9 +117,36 @@ let somenewarrleng = somenewarr.length/3
     somenewarr.splice(0, 2);
 
  }
+    console.log(finishRes);
+
  return finishRes
 }
 /////////////////////////////////////////////////////////////
+
+
+// Laguna
+// 6
+// 2
+// 0
+// 0
+// 0
+// 3
+// 0
+// 1
+// 7
+// 0
+// Leon
+// 5
+// 1
+// 0
+// 1
+// 1
+// 1
+// 1
+// 0
+// 8
+// 0
+
 
 let strFunction=(worder)=> {
   
@@ -127,8 +154,9 @@ let strFunction=(worder)=> {
     if (worder[i]=='x') {
       worder.splice(i, 1,'X');// ete rezultati mech ka poqratar X sarquma mecatar
     }
+    
   }
-
+    
    worder.splice(0, 1); //jnjuma 1 element@
    worder.splice(worder.length / 2, 1);//kisuma mer naxnakan zangvac@
 
@@ -146,8 +174,9 @@ let strFunction=(worder)=> {
   
   // document.querySelector(".redDiv").innerHTML =`(${str[0]})`
 
-  str.shift()
   
+  // str.shift()
+  console.log(str);
   return str
 }
 /////////////////////////////////////////////////////////////
