@@ -1,26 +1,22 @@
 let a = prompt("sdaewfdsfa");
 
-
 let n = a.replace("(","")
-// console.log(n)
+
 let b = n.replace(")","")
-// console.log(b)
+
 
 
 let c = b.replace(",",":")
-// console.log(c)
+
 let d = c.replace(",",":")
-// console.log(d)
+
 let e = d.replace(",",":")
-// console.log(e)
+
 let f = e.replace(",",":")
-// console.log(f)
 
 
 
 let dataArr = f.split(":")
-console.log(dataArr)
-// (24:31,18:19,10:26,14:19,51:10)
 
 let erkarutyun = dataArr.length
 let res
